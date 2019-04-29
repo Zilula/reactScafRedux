@@ -8,8 +8,8 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchQuotes(charcter, number) {
-    dispatch(fetchQuoteAction(charcter, number));
+  fetchQuotes(character, number) {
+    dispatch(fetchQuoteAction(character, number));
   }
 });
 

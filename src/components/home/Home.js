@@ -12,7 +12,6 @@ export default class Home extends React.PureComponent {
 
   }
   render() {
-    console.log(this.props.quotes);
     const listOfQuotes = this.props.quotes.map(quote => {
       return (
         <li key={quote.quote}>
@@ -20,6 +19,7 @@ export default class Home extends React.PureComponent {
         </li>
       );
     });
+    
     return (
       <>
         <h1>Hello World </h1>
