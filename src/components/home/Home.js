@@ -15,7 +15,7 @@ export default class Home extends React.PureComponent {
     console.log(this.props.quotes);
     const listOfQuotes = this.props.quotes.map(quote => {
       return (
-        <li key={quote._id}>
+        <li key={quote.quote}>
           <p> {quote.quote}</p>
         </li>
       );
