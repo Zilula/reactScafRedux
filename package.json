@@ -1,7 +1,7 @@
 {
-  "name": "reactScafRedux",
+  "name": "reactscafredux",
   "version": "1.0.0",
-  "description": "",
+  "description": "React application that allows users to browse a database of films and tv series",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
@@ -74,5 +74,13 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zilula/reactScafRedux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zilula/reactScafRedux/issues"
+  },
+  "homepage": "https://github.com/Zilula/reactScafRedux#readme"
 }
